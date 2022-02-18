@@ -1,0 +1,225 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 105%;
+    height: 60px;
+    background-image: url(./img/header\ cover.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.imgLogo {
+    width: 73px;
+    height: auto;
+    padding-right: 100px;
+}
+
+h1 {
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Milonga', cursive;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.List ul li {
+    margin: 20px;
+}
+
+.List ul li a:hover {
+    cursor: pointer;
+    color: darkblue;
+}
+
+img {
+    width: 60%;
+    height: 100px;
+}
+
+figcaption {
+    display: none;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 30px;
+}
+
+.double {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block {
+    text-align: center;
+    margin: 18px 10px;
+    width: 180px;
+    /* height: 220px; */
+    font-size: 12px;
+    border: 2px solid #828282;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding-top: 16px;
+    background-color: whitesmoke;
+}
+
+p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 13px;
+    color: #4e4c4c;
+    padding-top: 3px;
+    padding-bottom: 13px;
+    background-color: whitesmoke;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 16px;
+    color: #090328;
+    background-color: whitesmoke;
+}
+
+input {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #828282;
+    background-color: transparent;
+    border-color: transparent;
+    padding-top: 20px;
+}
+
+input:hover {
+    cursor: pointer;
+    color: rgb(1, 1, 118);
+}
+
+.dolphins img {
+    height: 110px;
+    width: 81px;
+}
+
+button {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: static;
+    width: 76px;
+    left: calc(50% - 73px/2 - 96.5px);
+    top: 9.3%;
+    bottom: 78.6%;
+    background-color: #0b0330;
+    color: white;
+    margin-top: 15px;
+}
+
+button:hover {
+    box-shadow: violet;
+    cursor: pointer;
+    animation-direction: alternate;
+}
+
+.Pesquisa .campoPesquisa {
+    padding-left: 17px;
+    text-align: -webkit-center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4%;
+    border: 2px solid #828282;
+}
+
+.campoPesquisa:hover {
+    border-color: rgb(5, 15, 70);
+}
+
+.btnEnviar {
+    background-color: rgb(50, 73, 205);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+.btnEnviar:hover {
+    cursor: pointer;
+    animation-direction: alternate;
+    box-shadow: lightseagreen;
+    border-color: limegreen;
+    color: cornsilk;
+}
+
+.Pesquisa {
+    margin-top: 18px;
+}
+
+.down {
+    text-align: -webkit-center;
+    border-color: 2px solid lightseagreen;
+}
+
+.cart {
+    background-color: rgb(3, 22, 69);
+    width: 305px;
+    height: 39px;
+    text-align: center;
+    padding-top: 21px;
+    margin-top: 5px;
+    font-size: 19px;
+    font-style: italic;
+    color: white;
+}
+
+.insideCart {
+    height: 250px;
+    padding-left: 100px;
+    width: 201px;
+    padding-top: 100px;
+    background-color: #F5F5F5;
+    border: 2px solid rgb(3, 22, 69);
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.insideCart p {
+    padding-left: 8px;
+    text-align: justify;
+}
+
+@media (min-width: 1220px) {
+    .double {
+        width: 700px;
+    }
+}
