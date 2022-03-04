@@ -12,9 +12,9 @@ O objetivo do projeto foi desenvolver um ecommerce em mobile first, aprender a e
 
 ### Layout do projeto
 
-![Ecommerce] (img/Ecommerce.jpg)
+![Ecommerce](img/Ecommerce.jpg)
 
-#Autor
+# Autor
 
 **Giuliane Camilo**
 
